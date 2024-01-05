@@ -1,0 +1,24 @@
+.tour-page-background-image-container{
+    background: url(../../assets/Images/tourpagemain.svg);
+    height: 50vw;
+    background-size: cover;
+    padding-top: 2vw;
+    width: 100%;
+    display: flex;
+}
+.tour-page-content-container{
+    margin-left: 6vw;
+    margin-top: 15vw;
+    width: 50%;
+}
+.tour-page-content-container h1{
+    color: white;
+    font-size: 3vw;
+    width: 80%;
+}
+.tour-page-content-container p{
+    color: white;
+    font-size: 1.3vw;
+    margin-right: 5vw;
+}
+

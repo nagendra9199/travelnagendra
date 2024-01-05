@@ -1,0 +1,63 @@
+.tour-page-background-image-container{
+    background: url(../../assets/Images/tourpagemain.svg);
+    height: 50vw;
+    background-size: cover;
+    padding-top: 2vw;
+    width: 100%;
+    display: flex;
+}
+.tour-page-content-container{
+    margin-left: 6vw;
+    margin-top: 15vw;
+    width: 50%;
+}
+.tour-page-content-container h1{
+    color: white;
+    font-size: 3vw;
+    width: 80%;
+}
+.tour-page-content-container p{
+    color: white;
+    font-size: 1.3vw;
+    margin-right: 5vw;
+}
+
+
+.tour-page-explore-page-form-container{
+    width: 35%;
+    background-color: rgba(245, 245, 245, 0.7);
+    border-radius: 0.5vw;
+    margin-top: 4vw;
+}
+.form-head{
+    font-size: 2vw;
+    text-align: center;
+}
+.tour-page-explore-page-form-inputs input{
+    width: 70%;
+    height: 2.5vw;
+    background-color: white;
+    border: none;
+    border-radius: 0.5vw;
+    margin-bottom: 1vw;
+    padding-left: 1vw;
+    margin-left: 4.5vw;
+    font-size: 1vw;
+}
+.tour-page-explore-page-form-inputs label{
+    font-size: 1.2vw;
+    margin-left: 4.5vw;
+}
+.tour-page-explore-page-submit-button-container{
+    display: flex;
+    justify-content: center;
+}
+.tour-page-explore-page-submit-button-container button{
+    background-color: rgba(58, 120, 201, 1);
+    color: white;
+    font-size: 1.3vw;
+    height: 3vw;
+    width: 20%;
+    border: none;
+    border-radius: 1vw;
+}

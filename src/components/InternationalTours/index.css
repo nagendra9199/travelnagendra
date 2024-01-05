@@ -1,0 +1,93 @@
+.international-tours-background{
+    background-image: url("../../assets/Images/inttourbackground.svg");
+    margin-top: 4vw;
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+    align-items: center;
+}
+.image-int-tour-container{
+    height: 50vw;
+    width: 40%;
+}
+.image-int-tour-container img{
+    height: 100%;
+    width: 100%;
+}
+.international-desinations-container{
+    width: 50%;
+    margin-left: 3vw;
+    height: 41vw;
+    overflow-y: scroll;
+}
+.int-head{
+    color: white;
+    font-size: 3vw;
+    margin-bottom: 0;
+}
+.int-para{
+    color: white;
+    font-size: 1vw;
+    width: 80%;
+}
+.blue-line-2{
+    height: 0.5vw;
+    border-radius: 2vw;
+    margin: 0;
+    margin-left: 20vw !important;
+    width: 35% !important;
+    background:linear-gradient(to right,rgba(58, 120, 201, 1),rgba(139, 63, 234, 1));
+}
+.countries-content-container h1{
+    color: white;
+    font-size: 2vw;
+}
+.countries-content-container p{
+    color: white;
+    font-size: 1vw;
+    margin-bottom: 0;
+}
+
+.countries-image img{
+    height: 5vw;
+}
+.countries-image{
+    display: flex;
+    align-items: center;
+}
+.white-line{
+    height: 7vw;
+    width: 1%;
+    background-color: white;
+    border-radius: 2vw;
+    margin-left: 1vw;
+    display: none;
+}
+.countries-container{
+    display: flex;
+    justify-content: center;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-bottom: 2vw;
+    height: 10vw;
+}
+.countries-container:hover{
+    background-color: rgba(58, 119, 201, 1);
+}
+.countries-container:hover .white-line{
+    display: block;
+}
+.int-destinations-more-button button{
+    background: linear-gradient(to right,rgba(58, 120, 201, 1),rgba(125, 73, 228, 1));
+    border: none;
+    font-size: 1.5vw;
+    color: white;
+    padding: 1vw;
+    border-radius: 2vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+.int-destinations-more-button{
+    display: flex;
+    justify-content: flex-end;
+}

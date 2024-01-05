@@ -1,0 +1,121 @@
+.advanture-background-container{
+    background-image: url('../../assets/Images/adventureimages/advanturebackground.svg');
+    background-size: cover;
+    height: 50vw;
+}
+.advanture-page-content-container{
+    width: 60%;
+    padding-top: 15vw;
+    padding-left: 4vw;
+}
+.advanture-heading{
+    font-size: 3vw;
+    color: white;
+}
+.advanture-paragraph{
+    font-size: 1.5vw;
+    color: white;
+}
+
+.advanture-events-background-container{
+    margin-top: -5%;
+    background-image: url('../../assets/Images/adventureimages/adveventsback.svg');
+    background-size: cover;
+}
+.advanture-events-heading{
+    font-size: 3vw;
+    margin-bottom: 0;
+}
+.advanture-events-content-container{
+    margin-left: 3vw;
+}
+.advanture-events-paragraph{
+    font-size: 1.2vw;
+    text-align: center;
+    padding-bottom: 6vw;
+}
+.blue-line-advanture-events{
+    height: 0.3vw;
+    width: 10%;
+    background: linear-gradient(to right,rgba(58, 120, 201, 1),rgba(139, 63, 234, 1));
+    margin-top: 0;
+    border-radius: 2vw;
+    margin-left: 15vw;
+    margin-bottom: 2vw;
+}
+.advanture-event-program{
+    height: 20vw;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2vw;
+    margin: 2vw;
+    position: relative;
+}
+.advanture-event-program img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2vw;
+}
+.advanture-event-heading{
+    font-size: 1.5vw;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+.advanture-event-program:hover{
+    .advanture-event-heading{
+        top: 3%;
+    }
+    .advanture-event-para-more-container{
+        display: block;
+        background-color: rgba(0, 0, 0, 0.349);
+        padding-top: 0.5vw;
+        border-radius: 2vw;
+        padding-bottom: 0.6vw;
+        transition: transform 2s ease-in-out;        
+    }
+}
+.advanture-event-paragraph{
+    font-size: 1vw;
+    color: white;
+}
+.advanture-event-more-info{
+    font-size: 1.5vw;
+    color: white;
+    border: 1px solid;
+    padding: 0.6vw;
+    width: max-content;
+    margin-left: 7vw;
+}
+.advanture-event-para-more-container{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    display: none;
+}
+.advanture-events-programs-container{
+    margin-top: -6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about-founder-image-container{
+    height: 35vw;
+    width: 50%;
+    margin-bottom: 6vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+.about-founder-image-container img{
+    height: 100%;
+}
+.about-founder-heading{
+    font-size: 2.5vw;
+    margin-left: 3vw;
+}

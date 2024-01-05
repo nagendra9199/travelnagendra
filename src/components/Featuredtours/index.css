@@ -1,0 +1,201 @@
+.featured-tours-main-container{
+    display: flex;
+    margin-top: 5vw;
+}
+.featured-tours-content{
+    width: 40%;
+    text-align: center;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.featured-tours-content h1{
+    font-size: 2vw;
+    margin-bottom: 0;
+}
+.featured-tours-content p{  
+    font-size: 1vw;
+    margin: 0;
+    width: 80%;
+}
+.tour-cards-container{
+    width: 60%;
+    display: flex;
+    overflow-x: scroll;
+    padding: 2vw;
+}
+
+.tour-cards-container::-webkit-scrollbar {
+    display: none;
+}
+.tour-cards-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.tour-card{
+    width: 35%;
+    height: 27vw;
+    background-color: rgb(255, 255, 255);
+    margin-right: 2vw;
+    flex-shrink: 0;
+    position: relative;
+    border-radius: 1.5vw;
+    position: relative;
+}
+.tour-card:hover{
+    cursor: pointer;
+}
+.tour-card-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1.5vw;
+}
+.days-container{
+    background:linear-gradient(to right,rgba(58, 120, 201, 1),rgba(136, 66, 233, 1));
+    width: max-content; 
+    position: absolute;
+    top: 6%;
+    right: 5%;
+    border-radius: 0.2vw;
+}
+.days-container p{
+    color: white;
+    font-size: 0.7vw;
+    padding-top: 0;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+.content-tour-card{
+    font-size: 1vw;
+    width: 90%;
+    color: white;
+}
+.content-tour-card-container{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-bottom-right-radius: 1.5vw;
+    border-bottom-left-radius: 1.5vw;
+}
+.blue-line{ 
+    width: 20% !important;
+    height: 0.3vw;
+    background:linear-gradient(to right,rgba(58, 120, 201, 1),rgba(139, 63, 234, 1));
+    border-radius: 3vw;
+    margin-left: 6vw !important;
+}
+.content-paragraph{
+    font-size: 1.2vw;
+}
+
+.tour-card:hover .content-tour-card-container{
+    background-color: rgba(9, 9, 9, 0.33);
+}
+.tour-card:hover .content-tour-card{
+    font-weight: bold;
+}
+.background{
+    background-color: rgba(107, 85, 221, 1);
+    height: 12vw;
+    width: 90%;
+    border-radius: 1.5vw;
+    position: absolute;
+    top: -3%;
+    z-index: -1;
+    left: -4%;
+    display: none;
+}
+.tour-card:hover .background{
+    display: block;
+}
+
+
+
+.himachal-pradesh-container{
+    height: 40vw;
+    width: 100%;
+}
+.himachal-background{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+}
+.himachal-pradesh-container{
+    position: relative;
+}
+.content-about-himachal-background{
+    position: absolute;
+    top: 3%;
+    text-align: center;
+}
+.content-about-himachal-background h1{
+    color: white;
+    font-size: 2vw;
+}
+.content-about-himachal-background p{
+    color: white;
+    font: 1vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.blue-line-himachal{
+    height: 0.3vw;
+    width: 0.1%;
+    background:linear-gradient(to right, rgba(58, 120, 201, 1),rgba(139, 63, 234, 1));
+    border-radius: 3vw;
+    margin: 0;
+    margin-left: 51vw;
+}
+.himachal-cards-container{
+    width: 100%x;
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    justify-content: center;
+}
+.himachal-card{
+    height: 25vw;
+    background-color:transparent;
+    width: 25%;
+    margin-right: 3vw;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.himachal-card img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    border: none;
+}
+.himachal-card h1{
+    font-size: 1vw;
+    text-align: center;
+}
+
+.himachal-card-para{
+    font-size: 1vw;
+    text-align: center;
+    margin: 0;
+}
+.himachal-card-hover-content{
+    font-size: 1vw;
+    text-align: center;
+    top: 100%;
+    position: absolute;
+    transition: top 0.8s ease-out;
+    color: rgb(194, 115, 13);
+    font-weight: bold;
+    margin-left: 1vw;
+}
+.himachal-card:hover{
+    .himachal-card-hover-content{
+        top: 0;
+    }
+}
