@@ -2,17 +2,18 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './index.css';
 
-import Mainpage from '../../Mainpage';
+
 
 import {FaAngleDown} from 'react-icons/fa';
 
 
-import logofinal from '../../assets/Images/logofinal.jpg';
+import logofinal from '../../assets/Images/logofinalpng.png';
 
 class Header extends Component {
   state = {
     isHolidayDropdownOpen: false,
     isAdventureDropdownOpen: false,
+    isGalleryDropdownOpen:false,
   };
 
   handleHolidayDropdownToggle = () => {
@@ -26,6 +27,11 @@ class Header extends Component {
       isAdventureDropdownOpen: !prevState.isAdventureDropdownOpen,
     }));
   };
+  handleGallerydropdowntoggle=()=>{
+    this.setState((prevState)=>({
+      isGalleryDropdownOpen:!prevState.isGalleryDropdownOpen,
+    }))
+  }
 
   render() {
     return (
@@ -36,7 +42,7 @@ class Header extends Component {
           </div>
           <div className='navbar-container'>
             <ul className='list-items'>
-              <a href=''>
+              <a href='Home'>
                 <li><Link to={'/'} className='advanture-link'>Home</Link></li>
               </a>
               <a href=''>
@@ -53,17 +59,20 @@ class Header extends Component {
                 {this.state.isHolidayDropdownOpen && (
                   <ul className='dropdown-content'>
                     <a href=''>
-                      <li>Option 1</li>
+                      <li><Link to={'/Holidaypackage/'} className='advanture-link'>Honeymoon</Link></li>
                     </a>
                     <a href=''>
-                      <li>Option 2</li>
+                    <li><Link to={'/Holidaypackage/'} className='advanture-link'>Solo</Link></li>
+                    </a>
+                    <a href=''>
+                      <li><Link to={'/Holidaypackage/'} className='advanture-link'>Family</Link></li>
+                    </a>
+                    <a href=''>
+                      <li><Link to={'/Holidaypackage/'} className='advanture-link'>Spiritual</Link></li>
                     </a>
                   </ul>
                 )}
               </li>
-
-              <a href=''><li><Link to={`/Gallery/`} className='advanture-link'>Gallery</Link></li></a>
-              <li><Link to={`/Awards/`} className='advanture-link'>Awards</Link></li>
 
               <li
                 onMouseEnter={this.handleAdventureDropdownToggle}
@@ -75,38 +84,41 @@ class Header extends Component {
 
                 {this.state.isAdventureDropdownOpen && (
                   <ul className='dropdown-content'>
-                    <a href=''>
-                      <li>ROCK CLIMBING</li>
-                    </a>
-                    <a href=''>
-                      <li>RAPPELLING</li>
-                    </a>
-                    <a href=''>
-                      <li>MOUNTAINEERING</li>
-                    </a>
-                    <a href=''>
-                      <li>TREKKING</li>
-                    </a>
-                    <a href=''>
-                      <li>SHOOTING</li>
-                    </a>
-
-                    <a href=''>
-                      <li>ARCHERY</li>
-                    </a>
-                    <a href=''>
-                      <li>ZIPLINE</li>
-                    </a>
-                    <a href=''>
-                      <li>CAMPING</li>
-                    </a>
-                    <a href=''>
-                      <li>NATURE AVERENESS</li>
-                    </a>
+                    <a href=''><li>ROCK CLIMBING</li></a>
+                    <a href=''><li>RAPPELLING</li></a>
+                    <a href=''><li>MOUNTAINEERING</li></a>
+                    <a href=''><li>TREKKING</li></a>
+                    <a href=''><li>SHOOTING</li></a>
+                    <a href=''><li>ARCHERY</li></a>
+                    <a href=''><li>ZIPLINE</li></a>
+                    <a href=''><li>CAMPING</li></a>
+                    <a href=''><li>NATURE AVERENESS</li></a>
                   </ul>
                 )}
               </li>
+              
 
+
+              <li
+                onMouseEnter={this.handleGallerydropdowntoggle}
+                onMouseLeave={this.handleGallerydropdowntoggle}
+              >
+                Gallery{' '}
+                <FaAngleDown className='dropdown-span'/>
+
+                {this.state.isGalleryDropdownOpen && (
+                  <ul className='dropdown-content'>
+                    <a href=''>
+                      <li><Link to={'/Holidaypackage/'} className='advanture-link'>Trip Gallery</Link></li>
+                    </a>
+                    <a href=''>
+                    <li><Link to={`/Gallery/`} className='advanture-link'>Advanture Gallery</Link></li>
+                    </a>
+                    
+                  </ul>
+                )}
+              </li>
+              <li><Link to={`/Awards/`} className='advanture-link'>Awards</Link></li>
               <a href=''>
                 <li><Link to={`/Contactus/`} className='advanture-link'>Contact Us</Link></li>
               </a>

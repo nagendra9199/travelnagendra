@@ -58,6 +58,7 @@
     margin-left: 3vw;
     margin-top: 1vw;
     box-shadow: 1px 1px 10px rgb(129, 129, 129);
+    background-color: rgb(255, 255, 255);
 }
 .logo-container img{
     height: 100%;

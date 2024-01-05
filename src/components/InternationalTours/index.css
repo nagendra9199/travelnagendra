@@ -70,6 +70,7 @@
     padding-right: 1vw;
     margin-bottom: 2vw;
     height: 10vw;
+    cursor: pointer;
 }
 .countries-container:hover{
     background-color: rgba(58, 119, 201, 1);

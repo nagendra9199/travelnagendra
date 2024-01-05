@@ -6,7 +6,6 @@ import './index.css';
 import Header from '../Header';
 import Footer from '../Footer';
 import Tourpagebackground from '../Tourpagebackground';
-import Tourdetails from '../Tourpagebackground';
 
 
 import featuredutk1 from '../../assets/Images/featuredutk1.svg';
@@ -60,7 +59,7 @@ const Tourpage=()=>{
                             <p className='tour-page-featured-paragraph'>Manali-solang nala-Hadimba Temple-Kullu-Naggar-Manikaran</p>
 
                             <div className='tour-page-contact-us-view-details-container'>
-                                <a href='' className='tour-page-feature-tour-contactus'>Contact Us</a>
+                                <a href='#' className='tour-page-feature-tour-contactus'>Contact Us</a>
 
                                 <a href='#' className='tour-page-feature-tour-view-details' onClick={handleViewDetailsClick}>View Details</a>
                             </div>
@@ -97,9 +96,9 @@ const Tourpage=()=>{
                             <p className='tour-page-featured-paragraph'>Manali-solang nala-Hadimba Temple-Kullu-Naggar-Manikaran</p>
 
                             <div className='tour-page-contact-us-view-details-container'>
-                                <a href='' className='tour-page-feature-tour-contactus'>Contact Us</a>
+                                <a href='#' className='tour-page-feature-tour-contactus'>Contact Us</a>
 
-                                <a href='' className='tour-page-feature-tour-view-details'>View Details</a>
+                                <a href='#' className='tour-page-feature-tour-view-details'>View Details</a>
                             </div>
                     </div>
 
@@ -135,9 +134,9 @@ const Tourpage=()=>{
                             <p className='tour-page-featured-paragraph'>Manali-solang nala-Hadimba Temple-Kullu-Naggar-Manikaran</p>
 
                             <div className='tour-page-contact-us-view-details-container'>
-                                <a href='' className='tour-page-feature-tour-contactus'>Contact Us</a>
+                                <a href='#' className='tour-page-feature-tour-contactus'>Contact Us</a>
 
-                                <a href='' className='tour-page-feature-tour-view-details'>View Details</a>
+                                <a href='#' className='tour-page-feature-tour-view-details'>View Details</a>
                             </div>
                     </div>
 

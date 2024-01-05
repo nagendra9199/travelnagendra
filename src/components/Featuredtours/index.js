@@ -45,7 +45,7 @@ const Featuredtours=()=>{
                     </div>
 
                     <div className='tour-card'>
-                        <img src={kashmir} className='tour-card-image' alt=''/>
+                        <img src={himachalimage1} className='tour-card-image' alt=''/>
                         <div className='content-tour-card-container'>
                             <p className='content-tour-card'>kashmir</p>
                         </div>
@@ -56,7 +56,7 @@ const Featuredtours=()=>{
                     </div>
 
                     <div className='tour-card'>
-                        <img src={kashmir} className='tour-card-image' alt=''/>
+                        <img src={himachalimage2} className='tour-card-image' alt=''/>
                         <div className='content-tour-card-container'>
                             <p className='content-tour-card'>Chardham</p>
                         </div>

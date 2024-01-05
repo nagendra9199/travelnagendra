@@ -11,6 +11,7 @@ import Awards from './components/Awards';
 import MainPage from './Mainpage';
 import Tourpage from './components/Tourpage';
 import Tourdetails from './components/Tourdetails';
+import Holidaypackage from './components/Holidaypackage';
 
 
 import './App.css';
@@ -30,6 +31,7 @@ function App(){
         <Route path='Awards/' element={<Awards/>}/>
         <Route path='Tourpage/' element={<Tourpage/>}/>
         <Route path='Tourdetails/' element={<Tourdetails/>}/>
+        <Route path='Holidaypackage/' element={<Holidaypackage/>}/>
       </Routes>
     </Router>
   )

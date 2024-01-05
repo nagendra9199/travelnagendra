@@ -37,7 +37,7 @@
 .tour-card{
     width: 35%;
     height: 27vw;
-    background-color: rgb(255, 255, 255);
+    background-color: transparent;
     margin-right: 2vw;
     flex-shrink: 0;
     position: relative;
